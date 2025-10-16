@@ -1,0 +1,52 @@
+.contact_wrapper {
+  text-align: center;
+
+  h1 {
+    margin-bottom: 10px;
+  }
+
+  p {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+  }
+
+  /* Row for email + phone */
+  .contact-row {
+    display: flex;
+    justify-content: center;
+    gap: 50px; /* space between email and phone */
+    flex-wrap: wrap; /* responsive for small screens */
+  }
+
+  .contact-item {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* space between icon and text */
+
+    .contact-text {
+      font-size: 1.2rem;
+    }
+
+    .contact-icon {
+      font-size: 1.2rem;
+    }
+  }
+}
+
+/* Light mode text */
+.contact_wrapper.light {
+  color: #050f0b; /* dark text for light mode */
+
+  .contact-item .contact-text {
+    color: #050f0b;
+  }
+}
+
+/* Dark mode text */
+.contact_wrapper.dark {
+  color: white; /* white text for dark mode */
+
+  .contact-item .contact-text {
+    color: white;
+  }
+}

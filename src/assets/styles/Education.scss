@@ -1,0 +1,35 @@
+.items-container {
+  padding: 5% 10%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.skill-animated {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.8s forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive */
+@media screen {
+  @media (max-width: 768px) {
+    .items-container {
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+  }
+
+  @media (max-width: 567px) {
+    h1 {
+      font-size: 1.5rem;
+    }
+  }
+}

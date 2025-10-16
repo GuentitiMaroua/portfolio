@@ -1,0 +1,102 @@
+/* Project container and grid */
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    padding: 5% 10%;
+    text-align: left;
+}
+
+.projects-container h1 {
+    margin-bottom: 2rem;
+}
+
+.projects-container .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+}
+
+.projects-container .projects-grid .project {
+    text-align: left;
+}
+
+.project h2:hover {
+    text-decoration: underline;
+}
+
+.project .slider-image {
+    border-radius: 5px;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+    object-position: center;
+}
+
+.project .slider-image:hover {
+    transform: scale(1.05);
+}
+
+.project .project-description {
+    margin-top: 1rem;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+/* Lightbox adjustments to fix top menu overlap */
+.react-image-lightbox {
+    z-index: 99999 !important; /* on top of menu */
+}
+
+.react-image-lightbox .ril-outer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* top aligned */
+    padding-top: 80px;       /* space for top menu */
+    height: calc(100vh - 80px); /* fill viewport minus menu */
+    overflow-y: auto;        /* allow vertical scroll for tall images */
+}
+
+.react-image-lightbox .ril-inner {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.react-image-lightbox .ril-image-current,
+.react-image-lightbox .ril-image-next,
+.react-image-lightbox .ril-image-prev {
+    max-width: 60%;          /* reduced from 90% to make images narrower */
+    max-height: none;        /* allow container to handle height */
+    object-fit: contain;
+    object-position: top;    /* show top of image first */
+}
+
+.react-image-lightbox .ril-close {
+    display: block !important;
+    position: fixed !important;
+    top: 20px !important;     /* visible below menu */
+    right: 30px !important;
+    z-index: 100000 !important;
+    font-size: 2.5rem !important;
+    color: white !important;
+    cursor: pointer !important;
+    background: rgba(0, 0, 0, 0.4) !important;
+    border-radius: 50% !important;
+    padding: 5px 10px !important;
+}
+
+/* Optional: dim background for clarity */
+.react-image-lightbox .ril-overlay {
+    background: rgba(0, 0, 0, 0.85) !important;
+}
+
+/* Smaller images for specific projects (Marsa Maroc, Pharmacy, Correcter) */
+.lightbox-small-images .ril-image-current,
+.lightbox-small-images .ril-image-next,
+.lightbox-small-images .ril-image-prev {
+    max-width: 30% !important;
+    max-height: 50vh !important;
+}
