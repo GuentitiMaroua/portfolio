@@ -19,15 +19,16 @@ const Contact: React.FC<ContactProps> = ({ mode }) => {
           <p>Got a project waiting to be realized? Let's collaborate and make it happen!</p>
 
           <div className="contact-row">
-            <div className="contact-item">
-              <FontAwesomeIcon icon={faEnvelope} style={{ color: '#8000ff' }} />
-              <span className="contact-text">{email}</span>
-            </div>
-            <div className="contact-item">
-              <FontAwesomeIcon icon={faPhone} style={{ color: '#8000ff' }} />
-              <span className="contact-text">{phone}</span>
-            </div>
-          </div>
+  <div className="contact-item">
+    <FontAwesomeIcon icon={faEnvelope} style={{ color: '#8000ff' }} />
+    <a href={`mailto:${email}`} className="contact-text">{email}</a>
+  </div>
+  <div className="contact-item">
+    <FontAwesomeIcon icon={faPhone} style={{ color: '#8000ff' }} />
+    <a href={`tel:${phone}`} className="contact-text">{phone}</a>
+  </div>
+</div>
+
 
         </div>
       </div>

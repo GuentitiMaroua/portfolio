@@ -25,6 +25,8 @@ const navItems = [
   ['Professional experience', 'experience'],['Expertise', 'expertise'], 
   // ID must match section id
   ['Projects', 'projects'],
+  ['Certifications', 'certifications'],
+  
   ['Contact', 'contact']
 ];
 

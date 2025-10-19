@@ -1,0 +1,85 @@
+.certifications-container {
+  padding: 5% 10%;
+  text-align: center;
+  color: white;
+
+  h1 {
+    margin-bottom: 2rem;
+  }
+
+  .certifications-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    animation: fadeInUp 0.8s ease forwards;
+  }
+
+  .certification-card {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+    }
+
+    .cert-icon {
+      margin-bottom: 10px;
+      color: #8000ff;
+    }
+
+    h3 {
+      margin: 10px 0 5px;
+      font-size: 1.1rem;
+    }
+
+    p {
+      margin: 0 0 5px;
+      font-size: 0.9rem;
+      color: #ccc;
+    }
+
+    .view-btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 5px 12px;
+      background-color: #8000ff;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 0.85rem;
+      transition: background-color 0.3s;
+
+      &:hover {
+        background-color: #a64dff;
+      }
+    }
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .certifications-container {
+    padding: 5%;
+    .certifications-grid {
+      display: block;
+    }
+    .certification-card {
+      margin-bottom: 20px;
+    }
+  }
+}

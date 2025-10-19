@@ -8,7 +8,8 @@ import {
   Contact,
   Navigation,
   Footer,
- 
+  Certifications,
+
 } from "./components";
 import FadeIn from './components/FadeIn';
 import './index.scss';
@@ -37,6 +38,7 @@ function App() {
             <Timeline/> 
             <Expertise/>
             <Project/>
+            <Certifications/>
             <Contact mode={mode === 'dark' ? 'dark' : 'light'} />
         </FadeIn>
         <Footer />
