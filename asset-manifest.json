@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.06f103fc.css",
-    "main.js": "/portfolio/static/js/main.53dd528b.js",
+    "main.css": "/portfolio/static/css/main.eda3971f.css",
+    "main.js": "/portfolio/static/js/main.ab28453d.js",
     "static/js/453.b05d8aa5.chunk.js": "/portfolio/static/js/453.b05d8aa5.chunk.js",
     "static/media/saph12.png": "/portfolio/static/media/saph12.d7e488133450ddd31536.png",
     "static/media/saph1.png": "/portfolio/static/media/saph1.defbe6c9eff8863438a4.png",
@@ -25,18 +25,19 @@
     "static/media/saph6.png": "/portfolio/static/media/saph6.91b4be6f64c8db42eb76.png",
     "static/media/saph8.png": "/portfolio/static/media/saph8.0ff777ada401df6e68a8.png",
     "static/media/tabibi2.png": "/portfolio/static/media/tabibi2.d591cde05cde21ea5ff8.png",
+    "static/media/Maroua-GUENTITI-CV.pdf": "/portfolio/static/media/Maroua-GUENTITI-CV.7049c5b518173f6d810f.pdf",
     "static/media/correcter2.png": "/portfolio/static/media/correcter2.79825bc8f2c9dd8d6582.png",
     "static/media/marsa2.png": "/portfolio/static/media/marsa2.614c3084cbde8c36e0fe.png",
     "static/media/maroua.jpg": "/portfolio/static/media/maroua.40e734b8836d9131cda9.jpg",
     "static/media/correcter1.png": "/portfolio/static/media/correcter1.d98557273ebfd5295482.png",
     "static/media/pharma2.png": "/portfolio/static/media/pharma2.917b0686c4727804fa7a.png",
     "index.html": "/portfolio/index.html",
-    "main.06f103fc.css.map": "/portfolio/static/css/main.06f103fc.css.map",
-    "main.53dd528b.js.map": "/portfolio/static/js/main.53dd528b.js.map",
+    "main.eda3971f.css.map": "/portfolio/static/css/main.eda3971f.css.map",
+    "main.ab28453d.js.map": "/portfolio/static/js/main.ab28453d.js.map",
     "453.b05d8aa5.chunk.js.map": "/portfolio/static/js/453.b05d8aa5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.06f103fc.css",
-    "static/js/main.53dd528b.js"
+    "static/css/main.eda3971f.css",
+    "static/js/main.ab28453d.js"
   ]
 }
