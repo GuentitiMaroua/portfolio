@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.eda3971f.css",
-    "main.js": "/portfolio/static/js/main.ab28453d.js",
+    "main.js": "/portfolio/static/js/main.4e1c17ad.js",
     "static/js/453.b05d8aa5.chunk.js": "/portfolio/static/js/453.b05d8aa5.chunk.js",
     "static/media/saph12.png": "/portfolio/static/media/saph12.d7e488133450ddd31536.png",
     "static/media/saph1.png": "/portfolio/static/media/saph1.defbe6c9eff8863438a4.png",
@@ -9,8 +9,10 @@
     "static/media/saph5.png": "/portfolio/static/media/saph5.e169a2639bfd4c938d2e.png",
     "static/media/saph4.png": "/portfolio/static/media/saph4.d43f921717e4d3081008.png",
     "static/media/saph3.png": "/portfolio/static/media/saph3.8540eb9acbd4cd9fb37e.png",
+    "static/media/correcter3.png": "/portfolio/static/media/correcter3.b9285b4f069f7ed5dd2e.png",
     "static/media/saph2.png": "/portfolio/static/media/saph2.6e5004848289392f25ae.png",
     "static/media/bg-light.png": "/portfolio/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/correcter4.png": "/portfolio/static/media/correcter4.65524fa034a5245b40da.png",
     "static/media/saph9.png": "/portfolio/static/media/saph9.6105d23acbfdb3f965e4.png",
     "static/media/iot5.png": "/portfolio/static/media/iot5.83a602a2b38bf628e76a.png",
     "static/media/iot4.png": "/portfolio/static/media/iot4.c614ce91ad48c0de2be5.png",
@@ -18,26 +20,31 @@
     "static/media/pharma1.png": "/portfolio/static/media/pharma1.c9051feda4fea3c83d64.png",
     "static/media/iot1.png": "/portfolio/static/media/iot1.f9841ba020abf4049a8c.png",
     "static/media/iot2.png": "/portfolio/static/media/iot2.7ec832b7778477df29b8.png",
-    "static/media/marsa1.png": "/portfolio/static/media/marsa1.c1c4c788299a65952cac.png",
+    "static/media/marsa1.png": "/portfolio/static/media/marsa1.3cc67e9c92feb7781811.png",
     "static/media/tabibi1.png": "/portfolio/static/media/tabibi1.366e3a9c8e4e2621e351.png",
+    "static/media/correcter2.png": "/portfolio/static/media/correcter2.1ae4df732478a7b40d88.png",
     "static/media/saph7.png": "/portfolio/static/media/saph7.8854d32ac6341905b0fe.png",
     "static/media/iot3.png": "/portfolio/static/media/iot3.55f990103f9914c0cd3d.png",
     "static/media/saph6.png": "/portfolio/static/media/saph6.91b4be6f64c8db42eb76.png",
+    "static/media/correcter1.png": "/portfolio/static/media/correcter1.46bcc3a51c787544d7d0.png",
     "static/media/saph8.png": "/portfolio/static/media/saph8.0ff777ada401df6e68a8.png",
     "static/media/tabibi2.png": "/portfolio/static/media/tabibi2.d591cde05cde21ea5ff8.png",
-    "static/media/Maroua-GUENTITI-CV.pdf": "/portfolio/static/media/Maroua-GUENTITI-CV.7049c5b518173f6d810f.pdf",
-    "static/media/correcter2.png": "/portfolio/static/media/correcter2.79825bc8f2c9dd8d6582.png",
-    "static/media/marsa2.png": "/portfolio/static/media/marsa2.614c3084cbde8c36e0fe.png",
+    "static/media/Maroua-GUENTITI-EN-CV.pdf": "/portfolio/static/media/Maroua-GUENTITI-EN-CV.95059cddd4bacf64b69a.pdf",
+    "static/media/pharma3.png": "/portfolio/static/media/pharma3.d8115833ba43e1463863.png",
+    "static/media/marsa6.png": "/portfolio/static/media/marsa6.6e906fb66e1ab6ca3a1c.png",
     "static/media/maroua.jpg": "/portfolio/static/media/maroua.40e734b8836d9131cda9.jpg",
-    "static/media/correcter1.png": "/portfolio/static/media/correcter1.d98557273ebfd5295482.png",
+    "static/media/marsa4.png": "/portfolio/static/media/marsa4.6f2f5630fb622857b496.png",
+    "static/media/marsa2.png": "/portfolio/static/media/marsa2.fb8bb6d38401acd6080f.png",
+    "static/media/marsa3.png": "/portfolio/static/media/marsa3.af5a4b4d298e020a3df5.png",
     "static/media/pharma2.png": "/portfolio/static/media/pharma2.917b0686c4727804fa7a.png",
+    "static/media/marsa5.png": "/portfolio/static/media/marsa5.ca89ad6316024864750e.png",
     "index.html": "/portfolio/index.html",
     "main.eda3971f.css.map": "/portfolio/static/css/main.eda3971f.css.map",
-    "main.ab28453d.js.map": "/portfolio/static/js/main.ab28453d.js.map",
+    "main.4e1c17ad.js.map": "/portfolio/static/js/main.4e1c17ad.js.map",
     "453.b05d8aa5.chunk.js.map": "/portfolio/static/js/453.b05d8aa5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.eda3971f.css",
-    "static/js/main.ab28453d.js"
+    "static/js/main.4e1c17ad.js"
   ]
 }
