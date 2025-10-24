@@ -6,10 +6,15 @@ import "../assets/styles/Project.scss";
 // Import images
 import pharma1 from "../assets/images/pharma1.png";
 import pharma2 from "../assets/images/pharma2.png";
+import pharma3 from "../assets/images/pharma3.png";
 import tabibi1 from "../assets/images/tabibi1.png";
 import tabibi2 from "../assets/images/tabibi2.png";
 import marsa1 from "../assets/images/marsa1.png";
 import marsa2 from "../assets/images/marsa2.png";
+import marsa3 from "../assets/images/marsa3.png";
+import marsa4 from "../assets/images/marsa4.png";
+import marsa5 from "../assets/images/marsa5.png";
+import marsa6 from "../assets/images/marsa6.png";
 import saph1 from "../assets/images/saph1.png";
 import saph2 from "../assets/images/saph2.png";
 import saph3 from "../assets/images/saph3.png";
@@ -23,6 +28,8 @@ import saph10 from "../assets/images/saph10.png";
 import saph12 from "../assets/images/saph12.png";
 import correcter1 from "../assets/images/correcter1.png";
 import correcter2 from "../assets/images/correcter2.png";
+import correcter3 from "../assets/images/correcter3.png";
+import correcter4 from "../assets/images/correcter4.png";
 import iot1 from "../assets/images/iot1.png";
 import iot2 from "../assets/images/iot2.png";
 import iot3 from "../assets/images/iot3.png";
@@ -58,7 +65,7 @@ const projects: ProjectType[] = [
   {
     title: "Development of a web application for expense management (End-of-Studies Internship)",
     description: "Marsa Maroc",
-    images: [marsa1, marsa2],
+    images: [marsa1, marsa2,marsa3,marsa4,marsa5,marsa6],
     smallImages: true,
   },
   {
@@ -69,7 +76,7 @@ const projects: ProjectType[] = [
   {
     title: "Development of a web application for pharmacy management (Initiation Internship)",
     description: "Pharmacy Achbar",
-    images: [pharma1, pharma2],
+    images: [pharma1, pharma2, pharma3],
     smallImages: true,
   },
   {
@@ -82,7 +89,7 @@ const projects: ProjectType[] = [
     title: "Spell checker web application",
     description:
       "Web application for spelling correction developed using Flask (backend) and React.js (frontend). Features real-time text correction for French.",
-    images: [correcter1, correcter2],
+    images: [correcter1, correcter2,correcter3,correcter4],
     smallImages: true,
   },
 ];

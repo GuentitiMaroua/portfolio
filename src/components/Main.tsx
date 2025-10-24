@@ -1,6 +1,6 @@
 import React from "react";
 import myPhoto from "../assets/images/maroua.jpg";
-import myCV from "../assets/images/Maroua-GUENTITI-CV.pdf"; // Assure-toi que le PDF est à cet endroit
+import myCV from "../assets/images/Maroua-GUENTITI-EN-CV.pdf"; // Assure-toi que le PDF est à cet endroit
 import '../assets/styles/Main.scss';
 
 // Import Font Awesome
